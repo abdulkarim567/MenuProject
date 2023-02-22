@@ -25,7 +25,7 @@ public class Food {
 		System.out.println("Enter name food ");
 		Name=input.nextLine();
 		System.out.println("Enter Price food ");
-		Price=input.nextFloat();
+		Price=input.nextDouble();
         }
         public String detail() {
 		return Name+" "+Price;
